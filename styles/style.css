@@ -89,3 +89,29 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+.game {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.game div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 14.5em;
+    margin: 10px;
+}
+.game img {
+    /* width: 300px;
+    height: 200px; */
+    width: 12.5em;
+    height: 15em;
+    margin: 0 20px;
+
+}
